@@ -19,7 +19,7 @@ import { AuthModule } from './auth/auth.module';
       password: 'ZbJdTZz91NpBZ9DGUzyw',
       database: 'bzg8lthjvbopykofymv6',
       autoLoadEntities: true,
-      synchronize: false,
+      synchronize: true,
     }),
     UserModule,
     AuthModule,
